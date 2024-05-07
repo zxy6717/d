@@ -1,0 +1,14 @@
+React hooks are a feature introduced in React 16.8 that allow developers to use state and other React features without writing a class. They let you use state and other React features like context and lifecycle methods in functional components. Hooks are functions that let you "hook into" React state and lifecycle features from function components. They don't work inside classes.
+
+Some commonly used React hooks are:
+
+1.useState: Allows functional components to have state variables.
+2.useEffect: Performs side effects in function components. It's similar to componentDidMount, componentDidUpdate, and componentWillUnmount in React classes.
+3.useContext: Allows you to use context in a functional component.
+4.useReducer: An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method.
+5.useCallback: Returns a memoized callback.
+6.useMemo: Returns a memoized value.
+7.useRef: Returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+
+
+These hooks enable you to manage the state and lifecycle of your functional components in a more concise and readable way. They have greatly simplified React codebases and made it easier to share logic across different components.

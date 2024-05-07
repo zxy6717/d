@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Web Page with jQuery Mobile</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>Simple Web Page</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Welcome to our simple web page!</p>
+    <a href="#about" data-role="button">About Us</a>
+    <a href="#contact" data-role="button">Contact Us</a>
+  </div>
+
+  <div data-role="footer">
+    <h4>&copy; 2024 Simple Web Page</h4>
+  </div>
+</div>
+
+<div data-role="page" id="about">
+  <div data-role="header">
+    <h1>About Us</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>This is the about page.</p>
+    <a href="#home" data-role="button" data-rel="back">Back to Home</a>
+  </div>
+
+  <div data-role="footer">
+    <h4>&copy; 2024 Simple Web Page</h4>
+  </div>
+</div>
+
+<div data-role="page" id="contact">
+  <div data-role="header">
+    <h1>Contact Us</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Contact information goes here.</p>
+    <a href="#home" data-role="button" data-rel="back">Back to Home</a>
+  </div>
+
+  <div data-role="footer">
+    <h4>&copy; 2024 Simple Web Page</h4>
+  </div>
+</div>
+
+</body>
+</html>
